@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:used_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:carrot_on_a_stick",
+          "nbt": "{Custom_name:Tardis_key}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tardis:doorinteracted"
+  }
+}

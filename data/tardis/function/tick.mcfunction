@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=my_interact] at @s if data entity @s actor run function tardis:doorinteracted
